@@ -2,6 +2,7 @@ import unittest
 import pandas as pd
 from src.csv_read_data import read_csv
 
+
 class CsvReadDataTest(unittest.TestCase):
 
     def test_read_in_should_be_csv(self):

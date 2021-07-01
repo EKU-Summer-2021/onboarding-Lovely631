@@ -4,5 +4,6 @@
 
 import pandas as pd
 
+
 def read_csv(url):
     return pd.read_csv(url)
