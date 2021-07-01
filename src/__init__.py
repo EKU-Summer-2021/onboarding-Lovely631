@@ -2,8 +2,8 @@
 Example module for template project.
 Pylint will check code in the src directory only!
 '''
-from src.polynomial import Polynomial
+from src.csv_read_data import read_csv
 
 __all__ = [
-    'Polynomial'
+    'read_csv'
 ]
