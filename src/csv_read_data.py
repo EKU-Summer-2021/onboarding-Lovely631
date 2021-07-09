@@ -7,6 +7,6 @@ import pandas as pd
 
 def read_csv(url):
     '''
-        read in function
+        Read in function
     '''
-    return pd.read_csv(url)
+    return pd.read_csv(url, header=None, names=['x', 'y'])
